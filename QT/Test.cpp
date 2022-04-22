@@ -1,4 +1,4 @@
-#include "TEST_H.h"
+#include "Test.h"
 
 #include <QQmlContext>
 #include <QQuickView>
