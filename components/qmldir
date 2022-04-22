@@ -1,0 +1,9 @@
+module components
+FlatButton 1.0 FlatButton.qml
+FlatComboBox 1.0 FlatComboBox.qml
+FlatCheckBox 1.0 FlatCheckBox.qml
+FileSelector 1.0 FileSelector.qml
+ExtractorSrcListHeader 1.0 ExtractorSrcListHeader.qml
+ExtractorSrcListComponent 1.0 ExtractorSrcListComponent.qml
+ExtractorResListHeader 1.0 ExtractorResListHeader.qml
+ExtractorResListComponent 1.0 ExtractorResListComponent.qml

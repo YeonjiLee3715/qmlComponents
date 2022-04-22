@@ -1,0 +1,11 @@
+module BaseComponents
+BaseWindow 1.0 BaseWindow.qml
+BaseView 1.0 BaseView.qml
+BaseButton 1.0 BaseButton.qml
+BaseCombobox 1.0 BaseCombobox.qml
+BaseListView 1.0 BaseListView.qml
+BaseTextEdit 1.0 BaseTextEdit.qml
+CustomHeaderItem 1.0 CustomHeaderItem.qml
+CustomHorizontalScrollbar 1.0 CustomHorizontalScrollbar.qml
+CustomVerticalScrollbar 1.0 CustomVerticalScrollbar.qml
+CustomFileDialog 1.0 CustomFileDialog.qml
