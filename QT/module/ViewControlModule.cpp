@@ -421,31 +421,6 @@ void ViewControlModule::HandleDestroyControlLoadedEvent(QString objName)
     SetControlEventDisconnection( pNewObj, true );
 }
 
-void ViewControlModule::OnExcelSongInfoFilePathChanged(int mode, QString strPath)
-{
-    emit SigExcelSongInfoFilePathChanged( mode, strPath );
-}
-
-void ViewControlModule::OnSrcPathChanged(int mode, QString strPath)
-{
-    emit SigSrcPathChanged( mode, strPath );
-}
-
-void ViewControlModule::OnDstPathChanged(int mode, QString strPath)
-{
-    emit SigDstPathChanged( mode, strPath );
-}
-
-void ViewControlModule::OnConvert(int mode)
-{
-    emit SigConvert( mode );
-}
-
-void ViewControlModule::OnReload(int mode)
-{
-    emit SigReload( mode );
-}
-
 void ViewControlModule::clear()
 {
 

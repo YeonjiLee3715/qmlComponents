@@ -15,9 +15,6 @@
 #include <QQueue>
 #include <QReadWriteLock>
 
-#include <QRunnable>
-#include <QThreadPool>
-
 #include "handler/WindowEventHandler.h"
 #include "handler/ViewEventHandler.h"
 #include "handler/ListEventHandler.h"
@@ -91,14 +88,6 @@ public:
     virtual void init() override;
     static QString getModuleName();
 
-signals:
-    void            SigExcelSongInfoFilePathChanged(int, QString);
-    void            SigSrcPathChanged(int, QString);
-    void            SigDstPathChanged(int, QString);
-
-    void            SigConvert(int);
-    void            SigReload(int);
-
 public slots:
     virtual void doRun() override;
     virtual void stopModule() override;
@@ -106,14 +95,6 @@ public slots:
 public slots:
     void            HandleNewControlLoadedEvent( QString objName );
     void            HandleDestroyControlLoadedEvent( QString objName );
-
-public slots:
-    void            OnExcelSongInfoFilePathChanged(int mode, QString strPath);
-    void            OnSrcPathChanged(int mode, QString strPath);
-    void            OnDstPathChanged(int mode, QString strPath);
-
-    void            OnConvert(int mode);
-    void            OnReload(int mode);
 
 private:
     bool                        initQmlEngine();
